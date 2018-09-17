@@ -5,6 +5,22 @@
     <title>Bai5</title>
 </head>
 <body>
+<script>
+    let a = parseInt(prompt("Nhập điểm bài kiểm tra: "));
+    let b = parseInt(prompt("Nhập điểm bài thi giữa kì: "));
+    let c = parseInt(prompt("Nhập điểm bài thi cuối kì: "));
+    let d = a + b + c;
+    let tbc = d / 3;
+    console.log(tbc);
 
+    if (tbc >= 9)
+        alert(tbc + " Giỏi");
+    else if (tbc >= 8)
+        alert(tbc + " Khá");
+    else if (tbc >= 7)
+        alert(tbc + " Trung bình");
+    else
+        alert(tbc + " Yếu");
+</script>
 </body>
 </html>
